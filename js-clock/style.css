@@ -1,0 +1,86 @@
+.cont {
+  margin: 0 auto;
+  background-image: url(/img/alena-aenami-lost-1k.webp);
+  height: 100vh;
+  padding: 0 15px;
+}
+.one {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 15px solid #000;
+  border-radius: 50%;
+  width: 350px;
+  position: relative;
+  height: 350px;
+  background-image: url(/img/clock.png);
+  background-size: cover;
+  margin: 0 15px;
+}
+.one::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.one__face {
+  width: 85%;
+}
+.chas {
+  display: flex;
+  justify-content: space-around;
+}
+.chas__one {
+  box-shadow: inset 0 -15px 15px #1918ff, inset 0 15px 15px #1918ff;
+}
+.chas__two {
+  box-shadow: inset 0 -15px 15px #ff1818, inset 0 15px 15px #ff1818;
+}
+.chas__three {
+  box-shadow: inset 0 -15px 15px #441294, inset 0 15px 15px #441294;
+}
+.palka {
+  border-radius: 15px;
+  width: 42.5%;
+  height: 6px;
+  position: absolute;
+  background-color: #000;
+  transform-origin: 100%;
+  top: 49%;
+  left: 24px;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0, 0, 0.73, 0.76);
+}
+.palka__sec {
+  background: linear-gradient(to left, #3f51b5, #e2229c, #fd0cb2);
+}
+.palka__sectwo {
+  background: linear-gradient(to right, #cc1253, #640089, #561b94);
+}
+.palka__secthree {
+  background: linear-gradient(to right, #351b6c, #a44ba2, #f28100);
+}
+.palka__min {
+  background: linear-gradient(to right, #34b291, #0a6997, #432b7c);
+}
+.palka__mintwo {
+  background: linear-gradient(to right, #f677b9, #924cba, #4d3e96);
+}
+.palka__minthree {
+  background: linear-gradient(to right, #576284, #b770a0);
+}
+.data {
+  padding-top: 126%;
+  font-size: 29px;
+  color: #fff;
+  width: 340%;
+}
+.inf__city {
+  padding-top: 8%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 45px;
+  color: #fff;
+}
